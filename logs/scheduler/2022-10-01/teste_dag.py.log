@@ -1,0 +1,60 @@
+[2022-10-01T12:39:04.648+0000] {processor.py:156} INFO - Started process (PID=285) to work on /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:39:04.648+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/teste_dag.py for tasks to queue
+[2022-10-01T12:39:04.648+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:39:04.648+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:39:05.133+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:39:05.132+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/teste_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/teste_dag.py", line 7, in <module>
+    from great_expectations_provider.operators.great_expectations import GreatExpectationsOperator
+ModuleNotFoundError: No module named 'great_expectations_provider'
+[2022-10-01T12:39:05.133+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:39:05.145+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/teste_dag.py took 0.499 seconds
+[2022-10-01T12:39:35.241+0000] {processor.py:156} INFO - Started process (PID=313) to work on /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:39:35.241+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/teste_dag.py for tasks to queue
+[2022-10-01T12:39:35.241+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:39:35.241+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:39:35.340+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:39:35.340+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/teste_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/teste_dag.py", line 7, in <module>
+    from great_expectations_provider.operators.great_expectations import GreatExpectationsOperator
+ModuleNotFoundError: No module named 'great_expectations_provider'
+[2022-10-01T12:39:35.340+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:39:35.352+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/teste_dag.py took 0.113 seconds
+[2022-10-01T12:40:05.442+0000] {processor.py:156} INFO - Started process (PID=341) to work on /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:40:05.443+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/teste_dag.py for tasks to queue
+[2022-10-01T12:40:05.443+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:40:05.443+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:40:05.543+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:40:05.543+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/teste_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/teste_dag.py", line 7, in <module>
+    from great_expectations_provider.operators.great_expectations import GreatExpectationsOperator
+ModuleNotFoundError: No module named 'great_expectations_provider'
+[2022-10-01T12:40:05.543+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:40:05.555+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/teste_dag.py took 0.114 seconds
+[2022-10-01T12:40:35.547+0000] {processor.py:156} INFO - Started process (PID=369) to work on /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:40:35.548+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/teste_dag.py for tasks to queue
+[2022-10-01T12:40:35.548+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:40:35.548+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:40:35.570+0000] {processor.py:768} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:40:35.720+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:40:35.720+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:dummy
+[2022-10-01T12:40:35.727+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:40:35.727+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:dummy
+[2022-10-01T12:40:35.732+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:40:35.732+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:dummy
+[2022-10-01T12:40:35.733+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:40:35.733+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-01T12:40:35.743+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:40:35.743+0000] {dag.py:2594} INFO - Creating ORM DAG for dummy
+[2022-10-01T12:40:35.752+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:40:35.751+0000] {dag.py:3328} INFO - Setting next_dagrun for dummy to 2022-09-30T00:00:00+00:00, run_after=2022-10-01T00:00:00+00:00
+[2022-10-01T12:40:35.765+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/teste_dag.py took 0.219 seconds
+[2022-10-01T12:41:05.859+0000] {processor.py:156} INFO - Started process (PID=397) to work on /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:41:05.859+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/teste_dag.py for tasks to queue
+[2022-10-01T12:41:05.860+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:41:05.859+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:41:05.868+0000] {processor.py:768} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/teste_dag.py
+[2022-10-01T12:41:05.893+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:41:05.893+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-01T12:41:05.911+0000] {logging_mixin.py:117} INFO - [2022-10-01T12:41:05.911+0000] {dag.py:3328} INFO - Setting next_dagrun for dummy to 2022-10-01T00:00:00+00:00, run_after=2022-10-02T00:00:00+00:00
+[2022-10-01T12:41:05.924+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/teste_dag.py took 0.066 seconds

@@ -1,0 +1,54 @@
+[2022-09-30T21:04:08.298+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-09-30T21:04:08.299+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-09-30T21:04:08.299+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-09-30T21:04:08.300+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-30T21:04:08.300+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-09-30T21:09:08.351+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-10-01T12:34:04.593+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-10-01T12:34:04.594+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-01T12:34:04.594+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-10-01T12:34:04.594+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-01T12:34:04.594+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-01T12:39:04.637+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-01T12:39:04.637+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-01T12:39:05.652+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/teste_dag.py                           0           1  0.51s           2022-10-01T12:39:05
+================================================================================
+[2022-10-01T12:39:36.242+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/teste_dag.py                           0           1  0.12s           2022-10-01T12:39:35
+================================================================================
+[2022-10-01T12:40:06.445+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/teste_dag.py                           0           1  0.12s           2022-10-01T12:40:05
+================================================================================
+[2022-10-01T12:40:36.645+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/teste_dag.py                           1           0  0.23s           2022-10-01T12:40:35
+================================================================================
+[2022-10-01T12:41:06.860+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/teste_dag.py                           1           0  0.07s           2022-10-01T12:41:05
+================================================================================
+[2022-10-01T12:41:08.097+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
